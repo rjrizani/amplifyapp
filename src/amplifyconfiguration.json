@@ -1,0 +1,39 @@
+{
+  "aws_project_region": "us-east-1",
+  "aws_cognito_identity_pool_id": "us-east-1:492e2efd-18dc-48ed-a066-ced0815729a0",
+  "aws_cognito_region": "us-east-1",
+  "aws_user_pools_id": "us-east-1_7erC9gbsk",
+  "aws_user_pools_web_client_id": "1rp6lr5bbbfhm65qjo7i4mj07q",
+  "oauth": {
+    "domain": "solusi-ai-staging.auth.us-east-1.amazoncognito.com",
+    "scope": [
+      "phone",
+      "email",
+      "openid",
+      "profile",
+      "aws.cognito.signin.user.admin"
+    ],
+    "redirectSignIn": "https://master.d2v5tuxk0v8xc3.amplifyapp.com/",
+    "redirectSignOut": "https://master.d2v5tuxk0v8xc3.amplifyapp.com/",
+    "responseType": "code"
+  },
+  "federationTarget": "COGNITO_USER_POOLS",
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [
+    "GOOGLE"
+  ],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ]
+}
